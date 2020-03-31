@@ -11,7 +11,6 @@
 <script>
   import Header from './components/shared/header.vue'
   import Footer from './components/shared/footer.vue'
-  import Sidebar from './components/shared/sidepanel.vue'
   
   export default {
     data () {
@@ -21,8 +20,7 @@
     },
     components: {
       'Footer': Footer,
-      'Header': Header,
-      'Sidebar': Sidebar
+      'Header': Header
     }
   }
 </script>

@@ -11,7 +11,7 @@ const vuetifyOptions = {}
 Vue.use(Vuetify)
 
 document.addEventListener('DOMContentLoaded', () => {
-  const app = new Vue({
+  new Vue({
     el: '#app',
     router,
     store,

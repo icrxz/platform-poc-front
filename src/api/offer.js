@@ -1,10 +1,12 @@
 import Http from './http';
 
 export default {
-  index() {
-    return Http.get('/fundraise_offers')
+  async index() {
+    const response = await Http.get('/fundraise_offers')
+    return response
   },
-  show(id) {
-    return Http.get('/fundraise_offers/'+id)
+  async show(id) {
+    const response = await Http.get('/fundraise_offers/' + id)
+    return response
   }
 }
